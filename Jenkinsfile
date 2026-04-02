@@ -5,8 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/SIRISHA-RAJ/playwright-automation.git'
-            }
+               git branch: 'main', url: 'https://github.com/SIRISHA-RAJ/playwright-automation.git'           }
         }
 
         stage('Build Docker Image') {
