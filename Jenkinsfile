@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'docker run -v $PWD/reports:/app/reports playwright-tests pytest -v --html=reports/report.html'
+               bat "docker run -v %WORKSPACE%/reports:/app/reports playwright-tests pytest -v --html=reports/report.html"
             }
         }
 
