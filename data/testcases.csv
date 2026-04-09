@@ -1,3 +1,11 @@
 testcase_id,config_file
-SA-Prime-2Cell-256-UDP, SA-Prime-2cells.cfg
 Prime-SIM40-TC-5, SA-Prime-1Cell.cfg
+Prime-SIM40-TC-8, SA-Prime-1Cell.cfg
+Prime-SIM40-TC-7, SA-Prime-1Cell.cfg
+SA-Prime-2Cell-256-UDP, SA-Prime-2cells.cfg
+SA-Prime-HO, SA-Prime-2cells.cfg
+Prime-2CC-UDP, SA-Prime-2CC.cfg
+Prime-2CC-vonr, SA-Prime-2CC.cfg
+SA-3CC-Prime-UDP, SA-Prime-3CC.cfg
+SA-3Cells-Prime-HO-256, SA--Prime-3cells-HO.cfg
+SA-3Cells-Prime-UDP-256, SA-Prime-3Cells.cfg
