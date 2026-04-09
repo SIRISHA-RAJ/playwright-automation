@@ -162,8 +162,14 @@ import os
 def export_stats_and_logs(page, testcase):
     try:
         # Create folder
-        download_path = f"./results/{testcase}"
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        download_path = os.path.join(BASE_DIR, "results", testcase)
+
         os.makedirs(download_path, exist_ok=True)
+        print(f"Creating directory at: {download_path}")
+        
+        #download_path = f"./results/{testcase}"
+        #os.makedirs(download_path, exist_ok=True)
 
         print("Exporting stats...")
         with page.expect_download() as download_info:
