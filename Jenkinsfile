@@ -7,7 +7,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t playwright-tests .'
+                bat 'docker build --cache-from playwright-tests -t playwright-tests .'
             }
         }
 
