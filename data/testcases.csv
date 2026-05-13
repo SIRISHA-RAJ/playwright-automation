@@ -2,6 +2,12 @@ testcase_id,config_file
 Prime-SIM40-TC-5, SA-Prime-1Cell.cfg
 Prime-SIM40-TC-8, SA-Prime-1Cell.cfg
 Prime-SIM40-TC-7, SA-Prime-1Cell.cfg
+SA-MAY-ViNR, SA-Prime-1Cell.cfg
+SA-MAY-ViNR, SA-Prime-1Cell.cfg
+SA-MAY-PING, SA-Prime-1Cell.cfg
+SA-MAY-HTTP, SA-Prime-1Cell.cfg
+SA-MAY-FTP, SA-Prime-1Cell.cfg
+SA-MAY-ND-TB, SA-Prime-1Cell.cfg
 SA-Prime-2Cell-256-UDP, SA-Prime-2cells.cfg
 SA-Prime-HO, SA-Prime-2cells.cfg
 Prime-2CC-UDP, SA-Prime-2CC.cfg
